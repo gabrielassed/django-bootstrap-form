@@ -1,5 +1,3 @@
-from distutils.version import StrictVersion
+from packaging.version import Version
 
-
-VERSION = StrictVersion('3.4')
-
+VERSION = Version("3.4")
